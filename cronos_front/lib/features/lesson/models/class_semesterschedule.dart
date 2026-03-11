@@ -2,7 +2,7 @@ import 'package:cronos_front/features/lesson/models/class_dayschedule.dart';
 
 class SemesterSchedule {
   final String semester;
-  final List<Dayschedule> schedule;
+  final List<DaySchedule> schedule;
 
   SemesterSchedule({required this.semester, required this.schedule});
 
@@ -10,7 +10,7 @@ class SemesterSchedule {
     return SemesterSchedule(
       semester: json['semester'] ?? '',
       schedule: (json['schedule'] as List)
-          .map((e) => Dayschedule.fromJson(e))
+          .map((e) => DaySchedule.fromJson(e))
           .toList(),
     );
   }

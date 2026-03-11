@@ -7,7 +7,7 @@ class Metadata {
 
   factory Metadata.fromJson(Map<String, dynamic> json) {
     return Metadata(
-      customNotes: json['custom_notes'] ?? '',
+      customNotes: json['custom_notes']?.toString() ?? '',
       grade: json['grade'] != null ? (json['grade'] as num).toDouble() : null,
       absenceCount: json['absence_count'] ?? 0,
     );

@@ -1,47 +1,44 @@
 import 'package:cronos_front/features/lesson/models/class_metadata.dart';
-import 'package:flutter/material.dart';
 
 class Lesson {
-  final String id;
-  final String name;
-  final String location;
-  final String topic;
-  final String summary;
   final String timeStart;
   final String timeEnd;
-  final List<String>? references;
-
+  final String subjectId;
+  final String subjectName;
+  final String location;
+  final String? topic;
+  final String? summary;
+  final List<String> references;
   final bool isExam;
-
   final Metadata metadata;
 
   Lesson({
-    required this.id,
-    required this.name,
-    required this.location,
-    required this.topic,
-    required this.summary,
     required this.timeStart,
     required this.timeEnd,
+    required this.subjectId,
+    required this.subjectName,
+    required this.location,
+    this.topic,
+    this.summary,
     required this.references,
-    required this.isExam,
+    this.isExam = false,
     required this.metadata,
   });
 
-  Map<String, dynamic> toMap() {
-    return {};
-  }
-
   factory Lesson.fromJson(Map<String, dynamic> json) {
     return Lesson(
-      id: json['subject_id'] ?? "",
-      name: json['subject_name'] ?? 'Nome não encontrado',
-      location: json['location'] ?? '',
-      topic: json['topic'],
-      summary: json['summary'],
-      timeStart: json['time_start'] ?? '',
-      timeEnd: json['time_end'] ?? '',
-      references: json['references'] ?? [],
+      timeStart: json['time_start']?.toString() ?? '',
+      timeEnd: json['time_end']?.toString() ?? '',
+      subjectId: json['subject_id']?.toString() ?? '',
+      subjectName: json['subject_name']?.toString() ?? '',
+      location: json['location']?.toString() ?? '',
+      topic: json['topic']?.toString(),
+      summary: json['summary']?.toString(),
+      references:
+          (json['references'] as List<dynamic>?)
+              ?.map((e) => e.toString())
+              .toList() ??
+          [],
       isExam: json['is_exam'] ?? false,
       metadata: json['metadata'] != null
           ? Metadata.fromJson(json['metadata'])
