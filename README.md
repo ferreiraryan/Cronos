@@ -47,7 +47,7 @@ pip install pymupdf pdfplumber google-generativeai pydantic
 
 ### ✅ Checklist
 
--
+- ✅ 
 
 ---
 
@@ -67,7 +67,7 @@ pip install pymupdf pdfplumber google-generativeai pydantic
 
 ### ✅ Checklist
 
--
+- ✅ 
 
 ---
 
@@ -86,7 +86,7 @@ pip install pymupdf pdfplumber google-generativeai pydantic
 
 ### ✅ Checklist
 
--
+- ✅ 
 
 ---
 
@@ -106,7 +106,7 @@ pip install pymupdf pdfplumber google-generativeai pydantic
 
 ### ✅ Checklist
 
-- [ ]
+- ✅ 
 
 ---
 
@@ -132,7 +132,7 @@ YYYY-MM-DD
 
 ### ✅ Checklist
 
--
+- ✅ 
 
 ---
 
@@ -151,7 +151,7 @@ Usando `subject_name` como chave.
 
 ### ✅ Checklist
 
--
+- ✅ 
 
 ---
 
@@ -165,7 +165,7 @@ Usando `subject_name` como chave.
 
 ### ✅ Checklist
 
--
+- ✅ 
 
 ---
 

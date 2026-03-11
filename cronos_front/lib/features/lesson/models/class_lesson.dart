@@ -1,3 +1,4 @@
+import 'package:cronos_front/features/lesson/models/class_metadata.dart';
 import 'package:flutter/material.dart';
 
 class Lesson {
@@ -6,11 +7,13 @@ class Lesson {
   final String location;
   final String topic;
   final String summary;
-  final TimeOfDay timeStart;
-  final TimeOfDay timeEnd;
+  final String timeStart;
+  final String timeEnd;
   final List<String>? references;
 
   final bool isExam;
+
+  final Metadata metadata;
 
   Lesson({
     required this.id,
@@ -22,6 +25,7 @@ class Lesson {
     required this.timeEnd,
     required this.references,
     required this.isExam,
+    required this.metadata,
   });
 
   Map<String, dynamic> toMap() {
@@ -33,12 +37,15 @@ class Lesson {
       id: json['subject_id'] ?? "",
       name: json['subject_name'] ?? 'Nome não encontrado',
       location: json['location'] ?? '',
-      topic: json['topic'] ?? '',
-      summary: json['summary'] ?? '',
+      topic: json['topic'],
+      summary: json['summary'],
       timeStart: json['time_start'] ?? '',
       timeEnd: json['time_end'] ?? '',
-      references: json['references'] ?? '',
-      isExam: json['is_exam'] ?? '',
+      references: json['references'] ?? [],
+      isExam: json['is_exam'] ?? false,
+      metadata: json['metadata'] != null
+          ? Metadata.fromJson(json['metadata'])
+          : Metadata(),
     );
   }
 }

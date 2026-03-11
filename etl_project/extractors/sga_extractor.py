@@ -11,18 +11,14 @@ class SGAExtractor:
     def __init__(self, pdf_path: str):
         self.pdf_path = pdf_path
         
-        # Mapeamento para normalizar os dias da semana para inteiros (Python weekday)
         self.day_map = {
             "segunda": 0, "terça": 1, "quarta": 2, 
             "quinta": 3, "sexta": 4, "sábado": 5, "sabado": 5
         }
 
-    # O Pylance reclamou porque células vazias no pdfplumber retornam None.
-    # Assinatura corrigida para aceitar str ou None.
     def _clean_text(self, text: Optional[str]) -> str:
         if not text:
             return ""
-        # Remove quebras de linha inúteis do PDF e espaços duplos
         return re.sub(r'\s+', ' ', text.replace('\n', ' ')).strip()
 
     def _parse_time(self, time_str: str) -> tuple[str, str]:
@@ -41,15 +37,11 @@ class SGAExtractor:
                 if not text or "Local das Aulas" not in text:
                     continue
                 
-                # Extrai as tabelas da página
                 tables = page.extract_tables()
                 for table in tables:
-                    # Ignora cabeçalhos vazios ou mal formatados
                     if not table or len(table) < 2:
                         continue
                         
-                    # Assume que a primeira linha é o cabeçalho
-                    # Estrutura esperada: Turma | Disciplina | Dia Semana | Horário | Local da Aula
                     for row in table[1:]:
                         if len(row) < 5 or not row[0]:
                             continue
@@ -62,7 +54,7 @@ class SGAExtractor:
                         
                         day_int = self.day_map.get(day_str)
                         if day_int is None:
-                            continue # Ignora se não for um dia da semana válido
+                            continue 
                             
                         time_start, time_end = self._parse_time(time_raw)
                         
@@ -75,7 +67,6 @@ class SGAExtractor:
                         )
                         weekly_schedule[day_int].append(lesson)
                         
-        # Ordenar as aulas de cada dia pelo horário de início
         for day in weekly_schedule:
             weekly_schedule[day].sort(key=lambda x: x.time_start)
             

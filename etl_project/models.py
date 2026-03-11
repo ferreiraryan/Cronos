@@ -29,8 +29,8 @@ class Lesson(BaseModel):
 
 class DaySchedule(BaseModel):
     """Representação de um dia letivo com as suas respetivas aulas."""
-    date: str  # Formato: YYYY-MM-DD
-    day_of_week: int # 0 = Segunda, 6 = Domingo
+    date: str  
+    day_of_week: int
     lessons: List[Lesson]
 
 class SemesterSchedule(BaseModel):

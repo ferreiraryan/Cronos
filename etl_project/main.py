@@ -9,13 +9,10 @@ from core.merger import ScheduleMerger
 # ==========================================
 # CONFIGURAÇÃO DE MAPEAMENTO
 # ==========================================
-# Chave: Nome exato do arquivo PDF (sem .pdf)
-# Valor: Nome exato da matéria como aparece no SGA
 FILE_TO_SUBJECT = {
     "2026_1 Crono AEDS1 PL": "ALGORITMOS E ESTRUTURAS DE DADOS I",
     "Cronograma Calc I 1 26 turma 1": "CÁLCULO I",
     "plano_de_disciplina": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
-    # Adicione os outros PDFs aqui conforme for colocando na pasta
 }
 
 def main():
@@ -48,7 +45,6 @@ def main():
             pdf_path = os.path.join(cronogramas_dir, pdf_file)
             pdf_name = pdf_file.replace(".pdf", "")
             
-            # Tenta buscar o nome mapeado. Se não achar, usa o nome do arquivo.
             nome_materia_sga = FILE_TO_SUBJECT.get(pdf_name)
             
             if not nome_materia_sga:
@@ -58,7 +54,6 @@ def main():
             print(f"[*] Processando via LLM: {pdf_file} -> Mapeado para: {nome_materia_sga}")
             
             extractor = SyllabusExtractor(pdf_path, gemini_client)
-            # Salvamos no dicionário usando o NOME DO SGA como chave
             syllabus_data[nome_materia_sga] = extractor.extract_topics()
     else:
         print(f"[!] Diretório '{cronogramas_dir}' não encontrado.")
