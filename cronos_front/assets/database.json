@@ -12,7 +12,23 @@
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Apresentação Disciplina; Nivelamento; História dos computadores; Metodologias de desenvolvimento",
-          "summary": "Apresentação da disciplina, nivelamento de conhecimentos, discussão sobre a história dos computadores e metodologias de desenvolvimento.",
+          "summary": "Apresentação da disciplina, nivelamento de conhecimentos, discussão da história dos computadores e metodologias de desenvolvimento.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Apresentação da Disciplina",
+          "summary": "Apresentação da disciplina, seus objetivos e metodologia.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -42,6 +58,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Apresentação",
+          "summary": "Apresentação do programa da disciplina, critérios de avaliação e nivelamento de conhecimentos dos alunos.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -56,7 +88,23 @@
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
           "topic": "Representação de dados; Tipos e Variáveis; Entrada e Saída",
-          "summary": "Estudo da representação de dados, tipos de variáveis, e operações de entrada e saída em programação.",
+          "summary": "Abordagem sobre a representação de dados, tipos e variáveis em programação, e conceitos de entrada e saída.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Representação de dados; Tipos e Variáveis; Entrada e Saída",
+          "summary": "Abordagem sobre a representação de dados, tipos e variáveis em programação, e conceitos de entrada e saída.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -72,7 +120,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Conjuntos e Cardinalidade",
-          "summary": "Introdução aos conceitos de conjuntos e cardinalidade, com referências em Rosen.",
+          "summary": "Estudo dos conceitos fundamentais de conjuntos e como determinar sua cardinalidade.",
           "references": [
             "Rosen – 2.1,2.5"
           ],
@@ -90,6 +138,22 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
@@ -97,6 +161,22 @@
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Conjuntos Numéricos",
           "summary": "Estudo dos diferentes tipos de conjuntos numéricos.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -118,8 +198,26 @@
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Tipos e Variáveis; Entrada e Saída; Operadores e expressões",
-          "summary": "Continuação do estudo de tipos e variáveis, entrada e saída de dados, e introdução a operadores e expressões.",
+          "summary": "Continuação sobre tipos e variáveis, entrada e saída, e introdução a operadores e expressões.",
           "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Operações em Conjuntos",
+          "summary": "Análise das diversas operações que podem ser realizadas com conjuntos, como união, intersecção e diferença.",
+          "references": [
+            "Rosen – 2.2"
+          ],
           "is_exam": false,
           "metadata": {
             "custom_notes": "",
@@ -148,6 +246,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Equações e Inequações",
+          "summary": "Estudo e resolução de equações e inequações.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -162,7 +276,23 @@
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
           "topic": "Estruturas condicionais",
-          "summary": "Aprendizado sobre estruturas de controle condicional em programação.",
+          "summary": "Estudo das estruturas condicionais em programação.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Estruturas condicionais",
+          "summary": "Estudo das estruturas condicionais em programação.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -178,7 +308,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Funções",
-          "summary": "Conceituação e propriedades das funções, com referências em Rosen.",
+          "summary": "Introdução ao conceito de funções, suas propriedades e tipos.",
           "references": [
             "Rosen 2.3"
           ],
@@ -196,13 +326,45 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Funções Lineares",
-          "summary": "Estudo das funções lineares.",
+          "summary": "Introdução e análise das propriedades das funções lineares.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -224,8 +386,26 @@
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Estruturas de repetição",
-          "summary": "Introdução às estruturas de repetição (loops) em programação.",
+          "summary": "Introdução às estruturas de repetição (loops).",
           "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Relações",
+          "summary": "Estudo das relações matemáticas, incluindo suas definições e representações.",
+          "references": [
+            "Rosen 9.1-9.3"
+          ],
           "is_exam": false,
           "metadata": {
             "custom_notes": "",
@@ -254,6 +434,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Funções Quadráticas",
+          "summary": "Estudo das funções quadráticas e seus gráficos.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -268,7 +464,23 @@
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
           "topic": "Estruturas de repetição",
-          "summary": "Continuação e aprofundamento das estruturas de repetição.",
+          "summary": "Continuação e aprofundamento nas estruturas de repetição.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Estruturas de repetição",
+          "summary": "Continuação e aprofundamento nas estruturas de repetição.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -284,7 +496,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Ordenação Parcial e Total",
-          "summary": "Análise de ordenações parciais e totais, com referências em Rosen.",
+          "summary": "Análise dos conceitos de ordenação parcial e total aplicados a conjuntos.",
           "references": [
             "Rosen 9.4-9.6"
           ],
@@ -302,13 +514,45 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Modelagem Envolvendo Funções",
-          "summary": "Resolução de problemas de modelagem matemática utilizando funções.",
+          "summary": "Aplicação de funções em problemas de modelagem matemática.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -330,8 +574,26 @@
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Estruturas de repetição",
-          "summary": "Exercícios e discussão avançada sobre estruturas de repetição.",
+          "summary": "Exercícios e aplicações práticas de estruturas de repetição.",
           "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Lógica Proposicional",
+          "summary": "Introdução aos fundamentos da lógica proposicional, incluindo proposições e operadores lógicos.",
+          "references": [
+            "Rosen 1.1-1.3"
+          ],
           "is_exam": false,
           "metadata": {
             "custom_notes": "",
@@ -360,6 +622,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Função Composta e Função Inversa",
+          "summary": "Conceitos de função composta e função inversa.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -374,7 +652,23 @@
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
           "topic": "Modularização",
-          "summary": "Conceitos de modularização e organização de código.",
+          "summary": "Conceitos de modularização em programação.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Modularização",
+          "summary": "Conceitos de modularização em programação.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -390,7 +684,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Lógica Proposicional",
-          "summary": "Continuação do estudo de lógica proposicional, com referências em Rosen.",
+          "summary": "Continuação do estudo da lógica proposicional, com aprofundamento em suas aplicações.",
           "references": [
             "Rosen 1.1-1.3"
           ],
@@ -408,13 +702,45 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Função Exponencial",
-          "summary": "Abordagem da função exponencial.",
+          "summary": "Estudo da função exponencial e suas propriedades.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -436,8 +762,26 @@
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Modularização",
-          "summary": "Aprofundamento em técnicas de modularização e funções.",
+          "summary": "Aprofundamento e técnicas de modularização.",
           "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Quantificadores Lógicos",
+          "summary": "Estudo dos quantificadores universais e existenciais em lógica.",
+          "references": [
+            "Rosen 1.4-1.5"
+          ],
           "is_exam": false,
           "metadata": {
             "custom_notes": "",
@@ -466,6 +810,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Função Logarítmica",
+          "summary": "Estudo da função logarítmica e suas propriedades.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -479,10 +839,26 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Prova 01 (25 pontos)",
-          "summary": "Primeira avaliação da disciplina, cobrindo os tópicos iniciais.",
+          "topic": "Passagem de parâmetros; Arquivos",
+          "summary": "Estudo da passagem de parâmetros e introdução à manipulação de arquivos.",
           "references": [],
-          "is_exam": true,
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Passagem de parâmetros; Arquivos",
+          "summary": "Estudo da passagem de parâmetros e introdução à manipulação de arquivos.",
+          "references": [],
+          "is_exam": false,
           "metadata": {
             "custom_notes": "",
             "grade": null,
@@ -496,7 +872,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Inferência Lógica, Modus Ponens e Modus Tollens",
-          "summary": "Métodos de inferência lógica, incluindo Modus Ponens e Modus Tollens, com referências em Rosen.",
+          "summary": "Análise de regras de inferência lógica, com foco em Modus Ponens e Modus Tollens.",
           "references": [
             "Rosen 1.6"
           ],
@@ -514,13 +890,45 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Funções Trigonométricas",
-          "summary": "Abordagem das funções trigonométricas.",
+          "summary": "Introdução e análise das funções trigonométricas.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -541,8 +949,24 @@
           "subject_id": "6976.1.00",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Passagem de parâmetros; Arquivos",
-          "summary": "Estudo sobre passagem de parâmetros em funções e introdução à manipulação de arquivos.",
+          "topic": "Arquivos",
+          "summary": "Continuação sobre a manipulação de arquivos.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Recesso",
+          "summary": "Período de recesso acadêmico.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -572,6 +996,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -585,8 +1025,24 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Arquivos",
-          "summary": "Aprofundamento na manipulação e operações com arquivos.",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -618,10 +1074,42 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Aula Normal (Sem tópico especificado)",
           "summary": null,
@@ -645,9 +1133,27 @@
           "subject_id": "6976.1.00",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Recursividade",
-          "summary": "Conceitos e aplicação de recursividade em algoritmos.",
+          "topic": "Modularização",
+          "summary": "Revisão e prática de modularização.",
           "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Inferência Lógica, Modus Ponens e Modus Tollens",
+          "summary": "Revisão e aprofundamento das regras de inferência lógica, Modus Ponens e Modus Tollens.",
+          "references": [
+            "Rosen 1.6"
+          ],
           "is_exam": false,
           "metadata": {
             "custom_notes": "",
@@ -676,6 +1182,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Esclarecimento de Dúvidas",
+          "summary": "Sessão dedicada ao esclarecimento de dúvidas sobre os tópicos abordados.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -689,8 +1211,24 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Exercícios de Revisão",
-          "summary": "Revisão dos tópicos abordados até o momento com exercícios práticos.",
+          "topic": "Recursividade",
+          "summary": "Conceitos e aplicações de recursividade.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Recursividade",
+          "summary": "Conceitos e aplicações de recursividade.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -706,7 +1244,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Prova 1",
-          "summary": "Primeira avaliação da disciplina.",
+          "summary": "Realização da primeira prova avaliativa da disciplina.",
           "references": [],
           "is_exam": true,
           "metadata": {
@@ -722,15 +1260,47 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "1ª Avaliação",
-          "summary": "Realização da primeira avaliação, valendo 25 pontos.",
+          "summary": "Primeira avaliação da disciplina, valendo 25 pontos.",
           "references": [],
           "is_exam": true,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
           "metadata": {
             "custom_notes": "",
             "grade": null,
@@ -749,9 +1319,27 @@
           "subject_id": "6976.1.00",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Feriado/Recesso",
-          "summary": "Dia sem aula devido a feriado ou recesso acadêmico.",
+          "topic": "Exercícios de Revisão",
+          "summary": "Revisão de tópicos anteriores através de exercícios.",
           "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Notações Assintóticas",
+          "summary": "Estudo das notações assintóticas para análise de algoritmos.",
+          "references": [
+            "Rosen 3.2"
+          ],
           "is_exam": false,
           "metadata": {
             "custom_notes": "",
@@ -780,6 +1368,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Resolução da Avaliação e Limites Geométricos",
+          "summary": "Resolução da primeira avaliação e introdução aos conceitos de limites e limites geométricos.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -793,10 +1397,26 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Feriado/Recesso",
-          "summary": "Dia sem aula devido a feriado ou recesso acadêmico.",
+          "topic": "Prova 01",
+          "summary": "Realização da primeira avaliação (Prova 01).",
           "references": [],
-          "is_exam": false,
+          "is_exam": true,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Prova 01",
+          "summary": "Realização da primeira avaliação (Prova 01).",
+          "references": [],
+          "is_exam": true,
           "metadata": {
             "custom_notes": "",
             "grade": null,
@@ -810,7 +1430,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Complexidade de Algoritmos",
-          "summary": "Estudo da complexidade de tempo e espaço de algoritmos, com referências em Rosen.",
+          "summary": "Análise da complexidade de tempo e espaço de algoritmos.",
           "references": [
             "Rosen 3.3"
           ],
@@ -828,6 +1448,22 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
@@ -835,6 +1471,22 @@
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Indeterminação 0/0",
           "summary": "Estudo da indeterminação do tipo 0/0 em limites.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -855,9 +1507,27 @@
           "subject_id": "6976.1.00",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Vetores/Matrizes",
-          "summary": "Introdução e manipulação de vetores e matrizes.",
+          "topic": "Ponteiros",
+          "summary": "Introdução aos conceitos de ponteiros.",
           "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Somatórios e Produtórios",
+          "summary": "Estudo de somatórios e produtórios, suas propriedades e técnicas de cálculo.",
+          "references": [
+            "Cormen ap A"
+          ],
           "is_exam": false,
           "metadata": {
             "custom_notes": "",
@@ -886,6 +1556,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -899,8 +1585,24 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Vetores/Matrizes",
-          "summary": "Continuação do estudo e exercícios com vetores e matrizes.",
+          "topic": "Ponteiros; Passagem de parâmetros",
+          "summary": "Aprofundamento em ponteiros e sua relação com a passagem de parâmetros.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Ponteiros; Passagem de parâmetros",
+          "summary": "Aprofundamento em ponteiros e sua relação com a passagem de parâmetros.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -916,7 +1618,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Perturbação e Noções avançadas de somatórios",
-          "summary": "Conceitos de perturbação e técnicas avançadas em somatórios, com referências em Cormen.",
+          "summary": "Conceitos de perturbação e técnicas avançadas para trabalhar com somatórios.",
           "references": [
             "Cormen ap A"
           ],
@@ -934,13 +1636,45 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Limites no Infinito",
-          "summary": "Abordagem dos limites no infinito.",
+          "summary": "Cálculo e propriedades dos limites no infinito.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -961,9 +1695,27 @@
           "subject_id": "6976.1.00",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Vetores/Matrizes",
-          "summary": "Aprofundamento e aplicações de vetores e matrizes.",
+          "topic": "Caracteres",
+          "summary": "Estudo sobre caracteres e manipulação de strings.",
           "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Contagem de Operações em Algoritmos",
+          "summary": "Métodos para contagem do número de operações em algoritmos para análise de eficiência.",
+          "references": [
+            "Cormen 2.2"
+          ],
           "is_exam": false,
           "metadata": {
             "custom_notes": "",
@@ -992,6 +1744,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Limites Laterais e Continuidade",
+          "summary": "Estudo dos limites laterais e o conceito de continuidade de funções.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -1005,8 +1773,24 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Exercícios de revisão",
-          "summary": "Revisão dos tópicos recentes para a próxima avaliação.",
+          "topic": "Structs",
+          "summary": "Introdução às estruturas (structs).",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Structs",
+          "summary": "Introdução às estruturas (structs).",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1022,7 +1806,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Noções Básicas de Contagem",
-          "summary": "Introdução aos princípios básicos de contagem, com referências em Rosen.",
+          "summary": "Introdução aos princípios fundamentais de contagem.",
           "references": [
             "Rosen 6.1,6.3"
           ],
@@ -1040,13 +1824,45 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Reta Tangente e Velocidade Instantânea",
-          "summary": "Introdução à reta tangente e o conceito de velocidade instantânea.",
+          "summary": "Conceitos de reta tangente e velocidade instantânea.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1067,10 +1883,28 @@
           "subject_id": "6976.1.00",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Prova 02 (25 pontos)",
-          "summary": "Segunda avaliação da disciplina.",
+          "topic": "Structs",
+          "summary": "Continuação e aplicações de structs.",
           "references": [],
-          "is_exam": true,
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Princípio da casa dos pombos e binômio de Newton",
+          "summary": "Estudo do Princípio da Casa dos Pombos e do Teorema do Binômio de Newton.",
+          "references": [
+            "Rosen 6.2,6.4"
+          ],
+          "is_exam": false,
           "metadata": {
             "custom_notes": "",
             "grade": null,
@@ -1098,6 +1932,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Definição de Derivada",
+          "summary": "Introdução e definição formal de derivada.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -1111,8 +1961,24 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Ponteiros",
-          "summary": "Introdução aos conceitos de ponteiros em programação.",
+          "topic": "Vetores/Matrizes",
+          "summary": "Introdução a vetores e matrizes.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Vetores/Matrizes",
+          "summary": "Introdução a vetores e matrizes.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1128,7 +1994,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Probabilidade discreta",
-          "summary": "Conceitos e aplicações de probabilidade em espaços amostrais discretos, com referências em Rosen.",
+          "summary": "Introdução aos conceitos de probabilidade discreta.",
           "references": [
             "Rosen 7"
           ],
@@ -1146,13 +2012,45 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Regras de Derivação (Potência, Operacionais, Produto)",
-          "summary": "Estudo da regra da potência, regras operacionais e a regra do produto para derivadas.",
+          "topic": "Regras de Derivação",
+          "summary": "Estudo da regra da potência, regras operacionais e regra do produto para derivadas.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1173,10 +2071,26 @@
           "subject_id": "6976.1.00",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Ponteiros; Passagem de parâmetros",
-          "summary": "Estudo avançado de ponteiros e sua relação com a passagem de parâmetros.",
+          "topic": "Vetores/Matrizes",
+          "summary": "Aprofundamento em vetores e matrizes.",
           "references": [],
           "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Prova 2",
+          "summary": "Realização da segunda prova avaliativa da disciplina.",
+          "references": [],
+          "is_exam": true,
           "metadata": {
             "custom_notes": "",
             "grade": null,
@@ -1204,6 +2118,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Regra do Quociente e Derivadas Específicas",
+          "summary": "Estudo da regra do quociente, derivada de e^x e derivadas de ordem superior.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -1217,8 +2147,24 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Caracteres",
-          "summary": "Manipulação de caracteres e strings.",
+          "topic": "Vetores/Matrizes",
+          "summary": "Exercícios e aplicações de vetores e matrizes.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Vetores/Matrizes",
+          "summary": "Exercícios e aplicações de vetores e matrizes.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1234,7 +2180,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Indução vs Dedução",
-          "summary": "Comparativo entre os métodos de indução e dedução, com referências em Rosen.",
+          "summary": "Comparação entre os métodos de raciocínio indutivo e dedutivo.",
           "references": [
             "Rosen 5.1"
           ],
@@ -1252,13 +2198,45 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Derivada de Funções Trigonométricas",
-          "summary": "Estudo da derivada de funções trigonométricas.",
+          "summary": "Cálculo das derivadas de funções trigonométricas.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1279,9 +2257,27 @@
           "subject_id": "6976.1.00",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Structs",
-          "summary": "Introdução e utilização de structs para agregação de dados.",
+          "topic": "Construtores",
+          "summary": "Conceitos e uso de construtores em classes.",
           "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Indução Forte",
+          "summary": "Aprofundamento no princípio da indução forte.",
+          "references": [
+            "Rosen 5.2"
+          ],
           "is_exam": false,
           "metadata": {
             "custom_notes": "",
@@ -1310,6 +2306,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Regra da Cadeia",
+          "summary": "Aplicação da regra da cadeia para derivação de funções compostas.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -1323,8 +2335,24 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Structs",
-          "summary": "Aprofundamento em structs e suas aplicações.",
+          "topic": "Encapsulamento",
+          "summary": "Estudo do encapsulamento em programação orientada a objetos.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Encapsulamento",
+          "summary": "Estudo do encapsulamento em programação orientada a objetos.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1340,7 +2368,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Equação de recorrência",
-          "summary": "Resolução e análise de equações de recorrência, com referências em Rosen.",
+          "summary": "Estudo de como resolver equações de recorrência.",
           "references": [
             "Rosen 5.3"
           ],
@@ -1358,13 +2386,45 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Derivada de Funções Exponenciais e Logarítmicas",
-          "summary": "Estudo da derivada de ln(x) e de funções exponenciais e logarítmicas em geral.",
+          "summary": "Cálculo da derivada de ln x e de funções exponenciais e logarítmicas gerais.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1385,9 +2445,27 @@
           "subject_id": "6976.1.00",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Construtores",
-          "summary": "Conceitos de construtores em programação orientada a objetos.",
+          "topic": "Exercícios de revisão",
+          "summary": "Revisão de tópicos anteriores para a próxima prova.",
           "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Algoritmos recursivos",
+          "summary": "Análise de algoritmos projetados usando recursão.",
+          "references": [
+            "Rosen 5.4"
+          ],
           "is_exam": false,
           "metadata": {
             "custom_notes": "",
@@ -1416,6 +2494,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Derivação Implícita",
+          "summary": "Estudo e aplicação da técnica de derivação implícita.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -1429,10 +2523,26 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Encapsulamento",
-          "summary": "Princípios de encapsulamento e ocultamento de informação.",
+          "topic": "Prova 02",
+          "summary": "Realização da segunda avaliação (Prova 02).",
           "references": [],
-          "is_exam": false,
+          "is_exam": true,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Prova 02",
+          "summary": "Realização da segunda avaliação (Prova 02).",
+          "references": [],
+          "is_exam": true,
           "metadata": {
             "custom_notes": "",
             "grade": null,
@@ -1446,7 +2556,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Provas por Exemplo e Contraexemplo",
-          "summary": "Técnicas de prova por exemplo e contraexemplo, com referências em Rosen.",
+          "summary": "Técnicas de prova utilizando exemplos e a identificação de contraexemplos.",
           "references": [
             "Rosen 1.7-1.8"
           ],
@@ -1464,13 +2574,45 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Esclarecimento de Dúvidas",
-          "summary": "Aula dedicada ao esclarecimento de dúvidas dos alunos.",
+          "summary": "Sessão dedicada ao esclarecimento de dúvidas sobre os tópicos abordados.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1492,8 +2634,26 @@
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Classes",
-          "summary": "Introdução a classes como base da programação orientada a objetos.",
+          "summary": "Introdução ao conceito de classes em programação orientada a objetos.",
           "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Prova Direta e Unicidade",
+          "summary": "Estudo da prova direta e do conceito de unicidade em demonstrações matemáticas.",
+          "references": [
+            "Rosen 1.7-1.8"
+          ],
           "is_exam": false,
           "metadata": {
             "custom_notes": "",
@@ -1522,6 +2682,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "2ª Avaliação",
+          "summary": "Segunda avaliação da disciplina, valendo 25 pontos.",
+          "references": [],
+          "is_exam": true,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -1536,7 +2712,23 @@
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
           "topic": "Classes e Vetores/Matrizes",
-          "summary": "Combinação de classes com vetores e matrizes.",
+          "summary": "Aplicação de classes em conjunto com vetores e matrizes.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Classes e Vetores/Matrizes",
+          "summary": "Aplicação de classes em conjunto com vetores e matrizes.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1552,7 +2744,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Prova por Contraposição e por Exaustão",
-          "summary": "Técnicas de prova por contraposição e por exaustão, com referências em Rosen.",
+          "summary": "Exploração das técnicas de prova por contraposição e por exaustão.",
           "references": [
             "Rosen 1.7-1.8"
           ],
@@ -1570,10 +2762,42 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Aula Normal (Sem tópico especificado)",
           "summary": null,
@@ -1598,8 +2822,26 @@
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Herança",
-          "summary": "Conceito de herança e hierarquias de classes.",
+          "summary": "Conceitos e implementação de herança em programação orientada a objetos.",
           "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Prova por Absurdo",
+          "summary": "Estudo da técnica de prova por absurdo.",
+          "references": [
+            "Rosen 1.7-1.8"
+          ],
           "is_exam": false,
           "metadata": {
             "custom_notes": "",
@@ -1621,6 +2863,22 @@
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Aula Normal (Sem tópico especificado)",
           "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Resolução da Avaliação e Polinômios de Taylor",
+          "summary": "Resolução da segunda avaliação e introdução aos polinômios de Taylor.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1652,13 +2910,29 @@
           }
         },
         {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Polimorfismo",
+          "summary": "Estudo do polimorfismo em programação orientada a objetos.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "10:40",
           "time_end": "12:20",
           "subject_id": "6984.1.00",
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Validação de Software",
-          "summary": "Conceitos e processos de validação de software, com referências em Rosen.",
+          "summary": "Conceitos e métodos para a validação de software.",
           "references": [
             "Rosen 5.5"
           ],
@@ -1676,13 +2950,45 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Pontos Críticos e Extremos Locais",
-          "summary": "Estudo de pontos críticos e extremos locais de funções.",
+          "summary": "Identificação e análise de pontos críticos e extremos locais de funções.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1703,9 +3009,27 @@
           "subject_id": "6976.1.00",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Tratamento de Exceção",
-          "summary": "Técnicas para tratamento de exceções em programas.",
+          "topic": "Métodos acessores",
+          "summary": "Discussão sobre métodos acessores (getters e setters).",
           "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Validação de Software",
+          "summary": "Continuação e aprofundamento nos temas de validação de software.",
+          "references": [
+            "Rosen 5.5"
+          ],
           "is_exam": false,
           "metadata": {
             "custom_notes": "",
@@ -1734,6 +3058,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Concavidade e Gráficos de Funções",
+          "summary": "Análise de concavidade e esboço de gráficos de funções utilizando derivadas.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -1747,8 +3087,24 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Métodos acessores",
-          "summary": "Uso de métodos acessores (getters e setters) para controle de acesso.",
+          "topic": "Tratamento de Exceção",
+          "summary": "Introdução ao tratamento de exceções.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Tratamento de Exceção",
+          "summary": "Introdução ao tratamento de exceções.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1764,7 +3120,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Prova 3",
-          "summary": "Terceira avaliação da disciplina.",
+          "summary": "Realização da terceira prova avaliativa da disciplina.",
           "references": [],
           "is_exam": true,
           "metadata": {
@@ -1780,13 +3136,45 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Problemas de Otimização",
-          "summary": "Resolução de problemas de otimização.",
+          "summary": "Resolução de problemas de otimização utilizando cálculo diferencial.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1807,10 +3195,26 @@
           "subject_id": "6976.1.00",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Prova repositiva (atestados, etc) - Matéria toda",
-          "summary": "Prova para alunos que precisam repor uma avaliação, cobrindo toda a matéria.",
+          "topic": "Prova repositiva",
+          "summary": "Prova repositiva para alunos com atestado, cobrindo toda a matéria.",
           "references": [],
           "is_exam": true,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Trabalho em Sala e em Grupos",
+          "summary": "Atividade prática a ser desenvolvida em sala e em grupos.",
+          "references": [],
+          "is_exam": false,
           "metadata": {
             "custom_notes": "",
             "grade": null,
@@ -1838,6 +3242,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Taxas Relacionadas e Regra de L’Hôspital",
+          "summary": "Estudo de taxas relacionadas e aplicação da regra de L’Hôspital.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -1851,8 +3271,24 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Tópico a ser definido",
-          "summary": "Aula sem um tópico explícito no cronograma, possivelmente dedicada a exercícios ou revisão.",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1868,7 +3304,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Prova de 2a Chamada",
-          "summary": "Prova destinada a estudantes ausentes na primeira chamada.",
+          "summary": "Realização da prova de segunda chamada para estudantes elegíveis.",
           "references": [],
           "is_exam": true,
           "metadata": {
@@ -1884,13 +3320,45 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Esclarecimento de Dúvidas",
-          "summary": "Aula dedicada ao esclarecimento de dúvidas dos alunos.",
+          "summary": "Sessão dedicada ao esclarecimento de dúvidas sobre os tópicos abordados.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1911,10 +3379,26 @@
           "subject_id": "6976.1.00",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Tópico a ser definido",
-          "summary": "Aula sem um tópico explícito no cronograma, possivelmente dedicada a exercícios ou revisão.",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Reavaliação",
+          "summary": "Realização da avaliação de recuperação.",
+          "references": [],
+          "is_exam": true,
           "metadata": {
             "custom_notes": "",
             "grade": null,
@@ -1942,6 +3426,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "3ª Avaliação",
+          "summary": "Terceira avaliação da disciplina, valendo 25 pontos.",
+          "references": [],
+          "is_exam": true,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -1955,8 +3455,24 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Prova 03 (25 pontos)",
-          "summary": "Terceira e última avaliação da disciplina.",
+          "topic": "Prova 03",
+          "summary": "Realização da terceira avaliação (Prova 03).",
+          "references": [],
+          "is_exam": true,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Prova 03",
+          "summary": "Realização da terceira avaliação (Prova 03).",
           "references": [],
           "is_exam": true,
           "metadata": {
@@ -1972,7 +3488,7 @@
           "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Devolutiva",
-          "summary": "Devolutiva e discussão dos resultados das avaliações.",
+          "summary": "Dia para feedback e devolução de trabalhos e provas.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -1988,15 +3504,47 @@
       "day_of_week": 3,
       "lessons": [
         {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
           "topic": "Entrega de Resultados e Avaliação Substitutiva",
-          "summary": "Entrega dos resultados das avaliações e realização da avaliação substitutiva para alunos que se enquadram nos critérios.",
+          "summary": "Entrega dos resultados das avaliações e realização da avaliação substitutiva para alunos elegíveis.",
           "references": [],
           "is_exam": true,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
           "metadata": {
             "custom_notes": "",
             "grade": null,
@@ -2015,8 +3563,24 @@
           "subject_id": "6976.1.00",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Entrega de Resultados Parciais",
-          "summary": "Entrega e discussão dos resultados parciais das avaliações.",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Sem atividade programada",
+          "summary": "Não há atividade programada para este dia.",
           "references": [],
           "is_exam": false,
           "metadata": {
@@ -2046,6 +3610,22 @@
             "grade": null,
             "absence_count": 0
           }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Reavaliação",
+          "summary": "Reavaliação final da disciplina, valendo 25 pontos, para alunos que preenchem os critérios de elegibilidade.",
+          "references": [],
+          "is_exam": true,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
         }
       ]
     },
@@ -2059,10 +3639,118 @@
           "subject_id": "6976.1.02",
           "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
-          "topic": "Reavaliação (25 pontos)",
-          "summary": "Prova de reavaliação para substituir a menor nota de prova, com valor de 25 pontos.",
+          "topic": "Reavaliação",
+          "summary": "Reavaliação substitutiva para a menor nota de prova.",
           "references": [],
           "is_exam": true,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Reavaliação",
+          "summary": "Reavaliação substitutiva para a menor nota de prova.",
+          "references": [],
+          "is_exam": true,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Sem atividade programada",
+          "summary": "Não há atividade programada para este dia.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "day_of_week": 3,
+      "lessons": [
+        {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Entrega dos Resultados Finais",
+          "summary": "Entrega dos resultados finais e encerramento da disciplina.",
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "day_of_week": 0,
+      "lessons": [
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
           "metadata": {
             "custom_notes": "",
             "grade": null,
@@ -2088,17 +3776,179 @@
       ]
     },
     {
-      "date": "2026-07-09",
-      "day_of_week": 3,
+      "date": "2026-07-14",
+      "day_of_week": 1,
       "lessons": [
+        {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6983.1.00",
+          "subject_name": "INTRODUÇÃO À COMPUTAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
         {
           "time_start": "08:50",
           "time_end": "10:30",
           "subject_id": "6982.1.00",
           "subject_name": "CÁLCULO I",
           "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
-          "topic": "Entrega Final dos Resultados",
-          "summary": "Entrega final dos resultados da disciplina.",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "day_of_week": 2,
+      "lessons": [
+        {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6976.1.02",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "day_of_week": 3,
+      "lessons": [
+        {
+          "time_start": "07:00",
+          "time_end": "08:40",
+          "subject_id": "6987.1.03",
+          "subject_name": "TRABALHO INTERDISCIPLINAR I: PROGRAMAÇÃO",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 13ºAndar | Laboratório de Informática 1301",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6982.1.00",
+          "subject_name": "CÁLCULO I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6993.1.00",
+          "subject_name": "METODOLOGIAS DE EXTENSÃO UNIVERSITÁRIA",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "day_of_week": 0,
+      "lessons": [
+        {
+          "time_start": "08:50",
+          "time_end": "10:30",
+          "subject_id": "6976.1.00",
+          "subject_name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
+          "references": [],
+          "is_exam": false,
+          "metadata": {
+            "custom_notes": "",
+            "grade": null,
+            "absence_count": 0
+          }
+        },
+        {
+          "time_start": "10:40",
+          "time_end": "12:20",
+          "subject_id": "6984.1.00",
+          "subject_name": "MATEMÁTICA DISCRETA E COMPUTABILIDADE",
+          "location": "PUC Minas Lourdes | Prédio 4 - Ed. Fernanda (1162) | 03º Andar | Sala de Aula 302",
+          "topic": "Aula Normal (Sem tópico especificado)",
+          "summary": null,
           "references": [],
           "is_exam": false,
           "metadata": {

@@ -4,8 +4,9 @@ import 'lesson_card.dart';
 
 class DaySection extends StatelessWidget {
   final DaySchedule dayData;
+  final DateTime now;
 
-  const DaySection({super.key, required this.dayData});
+  const DaySection({super.key, required this.dayData, required this.now});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +29,10 @@ class DaySection extends StatelessWidget {
               ),
             ),
           ),
-          ...dayData.lessons.map((lesson) => LessonCard(lesson: lesson)),
+          ...dayData.lessons.map(
+            (lesson) =>
+                LessonCard(lesson: lesson, dayDate: dayData.date, now: now),
+          ),
         ],
       ),
     );

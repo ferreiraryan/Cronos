@@ -1,8 +1,10 @@
-import 'package:cronos_front/app/repository/schedule_repository.dart';
 import 'package:cronos_front/features/lesson/models/class_dayschedule.dart';
-import 'package:cronos_front/features/lesson/models/class_lesson.dart';
+import 'package:cronos_front/features/lesson/models/class_lesson.dart'
+    show Lesson;
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
+import '../../../app/repository/schedule_repository.dart'
+    show ScheduleRepository;
 import '../widgets/lesson_card.dart';
 
 class CalendarScreen extends StatefulWidget {
@@ -28,14 +30,12 @@ class _CalendarScreenState extends State<CalendarScreen> {
     _loadAndIndexSchedule();
   }
 
-  /// Carrega a agenda e converte a List para Map (Busca O(1) para performance no calendário)
   Future<void> _loadAndIndexSchedule() async {
     try {
       final fullSchedule = await _repository.loadFullSchedule();
       final map = <DateTime, DaySchedule>{};
 
       for (var day in fullSchedule.schedule) {
-        // Normaliza a data para 00:00:00 UTC para o table_calendar comparar corretamente
         final normalizedDate = DateTime.utc(
           day.date.year,
           day.date.month,
@@ -61,7 +61,6 @@ class _CalendarScreenState extends State<CalendarScreen> {
   }
 
   List<Lesson> _getEventsForDay(DateTime day) {
-    // O table_calendar usa DateTime em UTC internamente
     final normalizedDay = DateTime.utc(day.year, day.month, day.day);
     return _scheduleMap[normalizedDay]?.lessons ?? [];
   }
@@ -76,6 +75,8 @@ class _CalendarScreenState extends State<CalendarScreen> {
         ? _getEventsForDay(_selectedDay!)
         : [];
     final theme = Theme.of(context);
+    final now =
+        DateTime.now(); // Pega a hora atual no build para passar pro card
 
     return Column(
       children: [
@@ -114,7 +115,6 @@ class _CalendarScreenState extends State<CalendarScreen> {
             }
           },
           calendarBuilders: CalendarBuilders(
-            // Customiza o marcador se houver alguma prova no dia
             markerBuilder: (context, date, events) {
               if (events.isEmpty) return const SizedBox();
 
@@ -145,7 +145,13 @@ class _CalendarScreenState extends State<CalendarScreen> {
                   padding: const EdgeInsets.symmetric(horizontal: 16.0),
                   itemCount: selectedEvents.length,
                   itemBuilder: (context, index) {
-                    return LessonCard(lesson: selectedEvents[index]);
+                    return LessonCard(
+                      lesson: selectedEvents[index],
+                      dayDate:
+                          _selectedDay ??
+                          now, // Passa a data do dia selecionado
+                      now: now, // Passa o DateTime.now()
+                    );
                   },
                 ),
         ),
