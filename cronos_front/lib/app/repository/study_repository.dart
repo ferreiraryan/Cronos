@@ -1,0 +1,92 @@
+import 'dart:io';
+import 'dart:convert';
+
+import 'package:cronos_front/features/lesson/models/class_study_block.dart';
+import 'package:cronos_front/features/lesson/models/class_study_material.dart';
+import 'package:cronos_front/features/lesson/models/class_study_plan.dart';
+import 'package:cronos_front/features/lesson/models/class_study_task.dart';
+import 'package:flutter/material.dart';
+import 'package:path_provider/path_provider.dart';
+
+class StudyRepository extends ChangeNotifier {
+  static final StudyRepository _instance = StudyRepository._internal();
+  factory StudyRepository() => _instance;
+  StudyRepository._internal();
+
+  StudyPlan? _plan;
+  File? _localFile;
+
+  Future<void> init() async {
+    final directory = await getApplicationDocumentsDirectory();
+    _localFile = File('${directory.path}/study_plan.json');
+
+    if (!await _localFile!.exists()) {
+      // Cria um JSON vazio na primeira execução
+      final defaultPlan = StudyPlan();
+      await _localFile!.writeAsString(json.encode(defaultPlan.toJson()));
+    }
+
+    final jsonString = await _localFile!.readAsString();
+    _plan = StudyPlan.fromJson(json.decode(jsonString));
+    notifyListeners();
+  }
+
+  StudyPlan get plan {
+    if (_plan == null) throw Exception("StudyRepository não inicializado.");
+    return _plan!;
+  }
+
+  Future<void> _save() async {
+    if (_localFile != null && _plan != null) {
+      await _localFile!.writeAsString(json.encode(_plan!.toJson()));
+      notifyListeners();
+    }
+  }
+
+  // --- CRUD Operations ---
+
+  void addStudyBlock(StudyBlock block) {
+    _plan!.routine.add(block);
+    _save();
+  }
+
+  void removeStudyBlock(String id) {
+    _plan!.routine.removeWhere((b) => b.id == id);
+    _save();
+  }
+
+  void addOrUpdateMaterial(StudyMaterial material) {
+    final index = _plan!.materials.indexWhere((m) => m.id == material.id);
+    if (index >= 0) {
+      _plan!.materials[index] = material;
+    } else {
+      _plan!.materials.add(material);
+    }
+    _save();
+  }
+
+  void toggleTask(String id) {
+    final task = _plan!.tasks.firstWhere((t) => t.id == id);
+    final index = _plan!.tasks.indexOf(task);
+    _plan!.tasks[index] = StudyTask(
+      id: task.id,
+      subjectName: task.subjectName,
+      title: task.title,
+      isDone: !task.isDone,
+    );
+    _save();
+  }
+
+  void addTask(StudyTask task) {
+    _plan!.tasks.add(task);
+    _save();
+  }
+
+  // --- Helpers para a UI ---
+
+  List<StudyBlock> getBlocksForDay(int dayOfWeek) {
+    if (_plan == null) return [];
+    return _plan!.routine.where((b) => b.dayOfWeek == dayOfWeek).toList()
+      ..sort((a, b) => a.timeStart.compareTo(b.timeStart));
+  }
+}
