@@ -14,4 +14,9 @@ class SemesterSchedule {
           .toList(),
     );
   }
+
+  Map<String, dynamic> toJson() => {
+    'semester': semester,
+    'schedule': schedule.map((e) => e.toJson()).toList(),
+  };
 }

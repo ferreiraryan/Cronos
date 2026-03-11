@@ -1,5 +1,4 @@
 import 'package:cronos_front/app/repository/schedule_repository.dart';
-import 'package:cronos_front/features/lesson/models/class_dayschedule.dart';
 import 'package:flutter/material.dart';
 import 'timeline_screen.dart';
 import 'calendar_screen.dart';
@@ -13,13 +12,14 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   int _currentIndex = 0;
-  late Future<List<DaySchedule>> _scheduleFuture;
   final ScheduleRepository _repository = ScheduleRepository();
+  late Future<void> _initFuture;
 
   @override
   void initState() {
     super.initState();
-    _scheduleFuture = _repository.getThisWeekSchedule();
+    // Inicializa a cópia do JSON para o storage local apenas uma vez
+    _initFuture = _repository.init();
   }
 
   @override
@@ -33,26 +33,33 @@ class _MainScreenState extends State<MainScreen> {
         centerTitle: true,
         elevation: 0,
       ),
-      body: FutureBuilder<List<DaySchedule>>(
-        future: _scheduleFuture,
+      body: FutureBuilder<void>(
+        future: _initFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(child: CircularProgressIndicator());
           }
           if (snapshot.hasError) {
             return Center(
-              child: Text('Erro ao carregar o JSON: \n${snapshot.error}'),
+              child: Text('Erro de I/O no JSON: \n${snapshot.error}'),
             );
           }
 
-          final schedule = snapshot.data ?? [];
+          // AnimatedBuilder faz a UI rebuildar automaticamente quando você salva uma edição no Modal
+          return AnimatedBuilder(
+            animation: _repository,
+            builder: (context, _) {
+              // Agora a chamada é síncrona, não precisa mais de await
+              final schedule = _repository.getThisWeekSchedule();
 
-          return IndexedStack(
-            index: _currentIndex,
-            children: [
-              TimelineScreen(schedule: schedule),
-              const CalendarScreen(),
-            ],
+              return IndexedStack(
+                index: _currentIndex,
+                children: [
+                  TimelineScreen(schedule: schedule),
+                  const CalendarScreen(),
+                ],
+              );
+            },
           );
         },
       ),

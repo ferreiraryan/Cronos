@@ -3,7 +3,7 @@ import 'package:cronos_front/features/lesson/models/class_lesson.dart';
 class DaySchedule {
   final DateTime date;
   final int dayOfWeek;
-  final List<Lesson> lessons;
+  List<Lesson> lessons;
 
   DaySchedule({
     required this.date,
@@ -29,4 +29,10 @@ class DaySchedule {
           [],
     );
   }
+  Map<String, dynamic> toJson() => {
+    'date':
+        "${date.year}-${date.month.toString().padLeft(2, '0')}-${date.day.toString().padLeft(2, '0')}",
+    'day_of_week': dayOfWeek,
+    'lessons': lessons.map((e) => e.toJson()).toList(),
+  };
 }

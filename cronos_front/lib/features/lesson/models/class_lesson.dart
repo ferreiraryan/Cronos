@@ -45,4 +45,38 @@ class Lesson {
           : Metadata(),
     );
   }
+
+  Map<String, dynamic> toJson() => {
+    'time_start': timeStart,
+    'time_end': timeEnd,
+    'subject_id': subjectId,
+    'subject_name': subjectName,
+    'location': location,
+    if (topic != null) 'topic': topic,
+    if (summary != null) 'summary': summary,
+    'references': references,
+    'is_exam': isExam,
+    'metadata': metadata.toJson(),
+  };
+
+  Lesson copyWith({
+    String? location,
+    String? topic,
+    String? summary,
+    List<String>? references,
+    bool? isExam,
+  }) {
+    return Lesson(
+      timeStart: timeStart,
+      timeEnd: timeEnd,
+      subjectId: subjectId,
+      subjectName: subjectName,
+      metadata: metadata,
+      location: location ?? this.location,
+      topic: topic ?? this.topic,
+      summary: summary ?? this.summary,
+      references: references ?? this.references,
+      isExam: isExam ?? this.isExam,
+    );
+  }
 }

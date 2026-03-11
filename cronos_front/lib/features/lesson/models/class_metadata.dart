@@ -12,4 +12,10 @@ class Metadata {
       absenceCount: json['absence_count'] ?? 0,
     );
   }
+
+  Map<String, dynamic> toJson() => {
+    'custom_notes': customNotes,
+    if (grade != null) 'grade': grade,
+    'absence_count': absenceCount,
+  };
 }

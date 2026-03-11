@@ -84,40 +84,17 @@ class _TimelineScreenState extends State<TimelineScreen> {
     return widget.schedule;
   }
 
-  String _getBotaoDiaLabel(List<DaySchedule> filteredDays) {
-    if (_filter != 'Hoje' || filteredDays.isEmpty) return 'Hoje';
-
-    final firstDay = filteredDays.first.date;
-
-    if (firstDay.year == _now.year &&
-        firstDay.month == _now.month &&
-        firstDay.day == _now.day) {
-      return 'Hoje';
-    }
-
-    final tomorrow = _now.add(const Duration(days: 1));
-    if (firstDay.year == tomorrow.year &&
-        firstDay.month == tomorrow.month &&
-        firstDay.day == tomorrow.day) {
-      return 'Amanhã';
-    }
-
-    return 'Próximas';
-  }
-
   @override
   Widget build(BuildContext context) {
     final filteredDays = _getFilteredSchedule();
-
-    final labelDia = _getBotaoDiaLabel(filteredDays);
 
     return Column(
       children: [
         Padding(
           padding: const EdgeInsets.all(16.0),
           child: SegmentedButton<String>(
-            segments: [
-              ButtonSegment(value: 'Hoje', label: Text(labelDia)),
+            segments: const [
+              ButtonSegment(value: 'Hoje', label: Text('Hoje')),
               ButtonSegment(value: 'Semana', label: Text('Semana')),
             ],
             selected: {_filter},

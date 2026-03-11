@@ -1,4 +1,5 @@
 import 'package:cronos_front/features/lesson/models/class_lesson.dart';
+import 'package:cronos_front/features/lesson/widgets/edit_modal.dart';
 import 'package:flutter/material.dart';
 
 class LessonCard extends StatelessWidget {
@@ -43,15 +44,13 @@ class LessonCard extends StatelessWidget {
       progress = elapsedMinutes / totalMinutes;
     }
 
-    // Aulas antigas ficam ligeiramente apagadas
     final double cardOpacity = isPast ? 0.6 : 1.0;
 
     return Opacity(
       opacity: cardOpacity,
       child: Card(
         margin: const EdgeInsets.only(bottom: 12.0),
-        clipBehavior: Clip
-            .antiAlias, // Necessário para a barra de progresso não vazar a borda arredondada
+        clipBehavior: Clip.antiAlias,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(12),
           side: isCurrent
@@ -146,12 +145,23 @@ class LessonCard extends StatelessWidget {
                           ),
                         ),
                       ],
+
+                      const SizedBox(height: 16),
+                      // Botão de Editar posicionado no final do card
+                      Align(
+                        alignment: Alignment.centerRight,
+                        child: TextButton.icon(
+                          onPressed: () =>
+                              LessonEditModal.show(context, lesson, dayDate),
+                          icon: const Icon(Icons.edit, size: 18),
+                          label: const Text('Editar Aula'),
+                        ),
+                      ),
                     ],
                   ),
                 ),
               ],
             ),
-            // A barra de progresso no rodapé do card
             if (isCurrent || isPast)
               LinearProgressIndicator(
                 value: progress,
