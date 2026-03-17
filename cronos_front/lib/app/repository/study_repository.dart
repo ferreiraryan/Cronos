@@ -21,7 +21,6 @@ class StudyRepository extends ChangeNotifier {
     _localFile = File('${directory.path}/study_plan.json');
 
     if (!await _localFile!.exists()) {
-      // Cria um JSON vazio na primeira execução
       final defaultPlan = StudyPlan();
       await _localFile!.writeAsString(json.encode(defaultPlan.toJson()));
     }
@@ -42,8 +41,6 @@ class StudyRepository extends ChangeNotifier {
       notifyListeners();
     }
   }
-
-  // --- CRUD Operations ---
 
   void addStudyBlock(StudyBlock block) {
     _plan!.routine.add(block);
@@ -66,15 +63,13 @@ class StudyRepository extends ChangeNotifier {
   }
 
   void toggleTask(String id) {
-    final task = _plan!.tasks.firstWhere((t) => t.id == id);
-    final index = _plan!.tasks.indexOf(task);
-    _plan!.tasks[index] = StudyTask(
-      id: task.id,
-      subjectName: task.subjectName,
-      title: task.title,
-      isDone: !task.isDone,
-    );
-    _save();
+    final index = _plan!.tasks.indexWhere((t) => t.id == id);
+    if (index >= 0) {
+      _plan!.tasks[index] = _plan!.tasks[index].copyWith(
+        isDone: !_plan!.tasks[index].isDone,
+      );
+      _save();
+    }
   }
 
   void addTask(StudyTask task) {
@@ -83,7 +78,6 @@ class StudyRepository extends ChangeNotifier {
   }
 
   // --- Helpers para a UI ---
-
   List<StudyBlock> getBlocksForDay(int dayOfWeek) {
     if (_plan == null) return [];
     return _plan!.routine.where((b) => b.dayOfWeek == dayOfWeek).toList()

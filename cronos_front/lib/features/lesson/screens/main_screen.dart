@@ -1,4 +1,6 @@
 import 'package:cronos_front/app/repository/schedule_repository.dart';
+import 'package:cronos_front/app/repository/study_repository.dart';
+import 'package:cronos_front/features/lesson/screens/study_hub_screen.dart';
 import 'package:flutter/material.dart';
 import 'timeline_screen.dart';
 import 'calendar_screen.dart';
@@ -19,7 +21,10 @@ class _MainScreenState extends State<MainScreen> {
   void initState() {
     super.initState();
     // Inicializa a cópia do JSON para o storage local apenas uma vez
-    _initFuture = _repository.init();
+    _initFuture = Future.wait([
+      ScheduleRepository().init(),
+      StudyRepository().init(),
+    ]);
   }
 
   @override
@@ -45,11 +50,9 @@ class _MainScreenState extends State<MainScreen> {
             );
           }
 
-          // AnimatedBuilder faz a UI rebuildar automaticamente quando você salva uma edição no Modal
           return AnimatedBuilder(
             animation: _repository,
             builder: (context, _) {
-              // Agora a chamada é síncrona, não precisa mais de await
               final schedule = _repository.getThisWeekSchedule();
 
               return IndexedStack(
@@ -57,6 +60,7 @@ class _MainScreenState extends State<MainScreen> {
                 children: [
                   TimelineScreen(schedule: schedule),
                   const CalendarScreen(),
+                  const StudyHubScreen(),
                 ],
               );
             },
@@ -72,6 +76,7 @@ class _MainScreenState extends State<MainScreen> {
             icon: Icon(Icons.calendar_month),
             label: 'Mensal',
           ),
+          NavigationDestination(icon: Icon(Icons.local_library), label: 'Hub'),
         ],
       ),
     );
