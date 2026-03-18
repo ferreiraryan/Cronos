@@ -1,4 +1,9 @@
+import 'package:cronos_front/app/repository/study_repository.dart';
 import 'package:cronos_front/features/lesson/models/class_study_block.dart';
+import 'package:flutter/material.dart';
+
+import 'package:flutter/material.dart';
+
 import 'package:flutter/material.dart';
 
 class StudyBlockCard extends StatelessWidget {
@@ -47,59 +52,76 @@ class StudyBlockCard extends StatelessWidget {
     final Color studyColor =
         Colors.tealAccent.shade400; // Destaque visual para estudo
 
-    return Opacity(
-      opacity: cardOpacity,
-      child: Card(
+    return Dismissible(
+      key: Key(block.id),
+      direction: DismissDirection.endToStart,
+      background: Container(
         margin: const EdgeInsets.only(bottom: 12.0),
-        clipBehavior: Clip.antiAlias,
-        shape: RoundedRectangleBorder(
+        decoration: BoxDecoration(
+          color: theme.colorScheme.error,
           borderRadius: BorderRadius.circular(12),
-          side: isCurrent
-              ? BorderSide(color: studyColor, width: 2.0)
-              : const BorderSide(
-                  color: Colors.white12,
-                  width: 1.0,
-                ), // Borda sutil para diferenciar de aulas
         ),
-        child: Column(
-          children: [
-            ListTile(
-              contentPadding: const EdgeInsets.symmetric(
-                horizontal: 16.0,
-                vertical: 8.0,
-              ),
-              leading: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    block.timeStart,
-                    style: const TextStyle(fontWeight: FontWeight.bold),
-                  ),
-                  Text(
-                    block.timeEnd,
-                    style: const TextStyle(fontSize: 12, color: Colors.grey),
-                  ),
-                ],
-              ),
-              title: Text(
-                'Estudo: ${block.subjectName}',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: studyColor,
+        alignment: Alignment.centerRight,
+        padding: const EdgeInsets.only(right: 20.0),
+        child: const Icon(Icons.delete, color: Colors.white),
+      ),
+      onDismissed: (_) {
+        StudyRepository().removeStudyBlock(block.id);
+      },
+      child: Opacity(
+        opacity: cardOpacity,
+        child: Card(
+          margin: const EdgeInsets.only(bottom: 12.0),
+          clipBehavior: Clip.antiAlias,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(12),
+            side: isCurrent
+                ? BorderSide(color: studyColor, width: 2.0)
+                : const BorderSide(
+                    color: Colors.white12,
+                    width: 1.0,
+                  ), // Borda sutil para diferenciar de aulas
+          ),
+          child: Column(
+            children: [
+              ListTile(
+                contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 16.0,
+                  vertical: 8.0,
                 ),
+                leading: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      block.timeStart,
+                      style: const TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                    Text(
+                      block.timeEnd,
+                      style: const TextStyle(fontSize: 12, color: Colors.grey),
+                    ),
+                  ],
+                ),
+                title: Text(
+                  'Estudo: ${block.subjectName}',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: studyColor,
+                  ),
+                ),
+                trailing: isCurrent
+                    ? Icon(Icons.menu_book, color: studyColor)
+                    : const Icon(Icons.menu_book, color: Colors.grey),
               ),
-              trailing: isCurrent
-                  ? Icon(Icons.menu_book, color: studyColor)
-                  : const Icon(Icons.menu_book, color: Colors.grey),
-            ),
-            if (isCurrent || isPast)
-              LinearProgressIndicator(
-                value: progress,
-                minHeight: 4,
-                backgroundColor: Colors.transparent,
-                color: isPast ? Colors.grey.withOpacity(0.5) : studyColor,
-              ),
-          ],
+              if (isCurrent || isPast)
+                LinearProgressIndicator(
+                  value: progress,
+                  minHeight: 4,
+                  backgroundColor: Colors.transparent,
+                  color: isPast ? Colors.grey.withOpacity(0.5) : studyColor,
+                ),
+            ],
+          ),
         ),
       ),
     );

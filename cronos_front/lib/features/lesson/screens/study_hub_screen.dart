@@ -28,7 +28,6 @@ class _StudyHubScreenState extends State<StudyHubScreen>
     super.dispose();
   }
 
-  // Extrai lista única de matérias da grade atual
   List<String> _getUniqueSubjects() {
     try {
       final schedule = ScheduleRepository().schedule;
@@ -352,7 +351,6 @@ class _StudyHubScreenState extends State<StudyHubScreen>
       itemBuilder: (context, index) {
         final task = sortedTasks[index];
 
-        // Monta a string de metadados (Data/Hora)
         List<String> meta = [];
         if (task.isDaily) meta.add('Diário');
         if (task.date != null && !task.isDaily)
@@ -360,36 +358,51 @@ class _StudyHubScreenState extends State<StudyHubScreen>
         if (task.time != null) meta.add(task.time!);
         final metaString = meta.join(' • ');
 
-        return Card(
-          margin: const EdgeInsets.only(bottom: 8.0),
-          child: CheckboxListTile(
-            title: Text(
-              task.title,
-              style: TextStyle(
-                decoration: task.isDone ? TextDecoration.lineThrough : null,
-                fontWeight: FontWeight.bold,
+        return Dismissible(
+          key: Key(task.id),
+          direction: DismissDirection.endToStart,
+          background: Container(
+            margin: const EdgeInsets.only(bottom: 8.0),
+            decoration: BoxDecoration(
+              color: Theme.of(context).colorScheme.error,
+              borderRadius: BorderRadius.circular(12),
+            ),
+            alignment: Alignment.centerRight,
+            padding: const EdgeInsets.only(right: 20),
+            child: const Icon(Icons.delete, color: Colors.white),
+          ),
+          onDismissed: (_) => StudyRepository().removeTask(task.id),
+          child: Card(
+            margin: const EdgeInsets.only(bottom: 8.0),
+            child: CheckboxListTile(
+              title: Text(
+                task.title,
+                style: TextStyle(
+                  decoration: task.isDone ? TextDecoration.lineThrough : null,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-            ),
-            subtitle: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                if (task.subjectName != null)
-                  Text(
-                    task.subjectName!,
-                    style: TextStyle(
-                      fontSize: 12,
-                      color: Theme.of(context).colorScheme.primary,
+              subtitle: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  if (task.subjectName != null)
+                    Text(
+                      task.subjectName!,
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
                     ),
-                  ),
-                if (metaString.isNotEmpty)
-                  Text(
-                    metaString,
-                    style: const TextStyle(fontSize: 12, color: Colors.grey),
-                  ),
-              ],
+                  if (metaString.isNotEmpty)
+                    Text(
+                      metaString,
+                      style: const TextStyle(fontSize: 12, color: Colors.grey),
+                    ),
+                ],
+              ),
+              value: task.isDone,
+              onChanged: (_) => StudyRepository().toggleTask(task.id),
             ),
-            value: task.isDone,
-            onChanged: (_) => StudyRepository().toggleTask(task.id),
           ),
         );
       },
@@ -411,45 +424,60 @@ class _StudyHubScreenState extends State<StudyHubScreen>
       itemCount: materials.length,
       itemBuilder: (context, index) {
         final mat = materials[index];
-        return Card(
-          margin: const EdgeInsets.only(bottom: 12.0),
-          clipBehavior: Clip.antiAlias,
-          child: InkWell(
-            onTap: () => _showUpdateProgressDialog(mat),
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    mat.subjectName,
-                    style: const TextStyle(fontSize: 12, color: Colors.grey),
-                  ),
-                  const SizedBox(height: 4),
-                  Text(
-                    mat.title,
-                    style: const TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 16,
+        return Dismissible(
+          key: Key(mat.id),
+          direction: DismissDirection.endToStart,
+          background: Container(
+            margin: const EdgeInsets.only(bottom: 12.0),
+            decoration: BoxDecoration(
+              color: Theme.of(context).colorScheme.error,
+              borderRadius: BorderRadius.circular(12),
+            ),
+            alignment: Alignment.centerRight,
+            padding: const EdgeInsets.only(right: 20),
+            child: const Icon(Icons.delete, color: Colors.white),
+          ),
+          onDismissed: (_) => StudyRepository().removeMaterial(mat.id),
+          child: Card(
+            margin: const EdgeInsets.only(bottom: 12.0),
+            clipBehavior: Clip.antiAlias,
+            child: InkWell(
+              onTap: () => _showUpdateProgressDialog(mat),
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      mat.subjectName,
+                      style: const TextStyle(fontSize: 12, color: Colors.grey),
                     ),
-                  ),
-                  const SizedBox(height: 12),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        '${mat.readPages} / ${mat.totalPages} pág.',
-                        style: const TextStyle(fontSize: 12),
+                    const SizedBox(height: 4),
+                    Text(
+                      mat.title,
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
                       ),
-                      Text(
-                        '${(mat.progress * 100).toInt()}%',
-                        style: const TextStyle(fontWeight: FontWeight.bold),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 8),
-                  LinearProgressIndicator(value: mat.progress),
-                ],
+                    ),
+                    const SizedBox(height: 12),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          '${mat.readPages} / ${mat.totalPages} pág.',
+                          style: const TextStyle(fontSize: 12),
+                        ),
+                        Text(
+                          '${(mat.progress * 100).toInt()}%',
+                          style: const TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 8),
+                    LinearProgressIndicator(value: mat.progress),
+                  ],
+                ),
               ),
             ),
           ),

@@ -62,6 +62,11 @@ class StudyRepository extends ChangeNotifier {
     _save();
   }
 
+  void removeMaterial(String id) {
+    _plan!.materials.removeWhere((m) => m.id == id);
+    _save();
+  }
+
   void toggleTask(String id) {
     final index = _plan!.tasks.indexWhere((t) => t.id == id);
     if (index >= 0) {
@@ -74,6 +79,11 @@ class StudyRepository extends ChangeNotifier {
 
   void addTask(StudyTask task) {
     _plan!.tasks.add(task);
+    _save();
+  }
+
+  void removeTask(String id) {
+    _plan!.tasks.removeWhere((t) => t.id == id);
     _save();
   }
 
