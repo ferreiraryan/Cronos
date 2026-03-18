@@ -65,13 +65,14 @@ class Lesson {
     String? summary,
     List<String>? references,
     bool? isExam,
+    Metadata? metadata,
   }) {
     return Lesson(
       timeStart: timeStart,
       timeEnd: timeEnd,
       subjectId: subjectId,
       subjectName: subjectName,
-      metadata: metadata,
+      metadata: metadata ?? this.metadata,
       location: location ?? this.location,
       topic: topic ?? this.topic,
       summary: summary ?? this.summary,

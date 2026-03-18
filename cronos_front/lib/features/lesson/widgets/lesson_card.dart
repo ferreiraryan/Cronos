@@ -2,6 +2,8 @@ import 'package:cronos_front/features/lesson/models/class_lesson.dart';
 import 'package:cronos_front/features/lesson/widgets/edit_modal.dart';
 import 'package:flutter/material.dart';
 
+import 'package:flutter/material.dart';
+
 class LessonCard extends StatelessWidget {
   final Lesson lesson;
   final DateTime dayDate;
@@ -34,17 +36,18 @@ class LessonCard extends StatelessWidget {
 
     bool isPast = now.isAfter(endTime);
     bool isCurrent = now.isAfter(startTime) && now.isBefore(endTime);
+    bool isCancelled = lesson.metadata.isCancelled;
 
     double progress = 0.0;
     if (isPast) {
       progress = 1.0;
-    } else if (isCurrent) {
+    } else if (isCurrent && !isCancelled) {
       final totalMinutes = endTime.difference(startTime).inMinutes;
       final elapsedMinutes = now.difference(startTime).inMinutes;
       progress = elapsedMinutes / totalMinutes;
     }
 
-    final double cardOpacity = isPast ? 0.6 : 1.0;
+    final double cardOpacity = (isPast || isCancelled) ? 0.5 : 1.0;
 
     return Opacity(
       opacity: cardOpacity,
@@ -53,10 +56,15 @@ class LessonCard extends StatelessWidget {
         clipBehavior: Clip.antiAlias,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(12),
-          side: isCurrent
+          side: isCancelled
+              ? BorderSide(
+                  color: theme.colorScheme.error.withOpacity(0.5),
+                  width: 1.5,
+                )
+              : isCurrent
               ? BorderSide(color: theme.colorScheme.primary, width: 2.0)
               : lesson.isExam
-              ? BorderSide(color: theme.colorScheme.error, width: 1.5)
+              ? BorderSide(color: Colors.orangeAccent, width: 1.5)
               : BorderSide.none,
         ),
         child: Column(
@@ -80,17 +88,36 @@ class LessonCard extends StatelessWidget {
                 lesson.subjectName,
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: lesson.isExam ? theme.colorScheme.error : null,
+                  decoration: isCancelled ? TextDecoration.lineThrough : null,
+                  color: isCancelled
+                      ? theme.colorScheme.error
+                      : (lesson.isExam ? Colors.orangeAccent : null),
                 ),
               ),
-              subtitle: Text(
-                lesson.location,
-                style: const TextStyle(fontSize: 13),
+              subtitle: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(lesson.location, style: const TextStyle(fontSize: 13)),
+                  if (isCancelled)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 4.0),
+                      child: Text(
+                        'Cancelada: ${lesson.metadata.cancelReason ?? "Sem motivo informado"}',
+                        style: TextStyle(
+                          color: theme.colorScheme.error,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 12,
+                        ),
+                      ),
+                    ),
+                ],
               ),
-              trailing: lesson.isExam
-                  ? Icon(
+              trailing: isCancelled
+                  ? Icon(Icons.cancel, color: theme.colorScheme.error)
+                  : lesson.isExam
+                  ? const Icon(
                       Icons.warning_amber_rounded,
-                      color: theme.colorScheme.error,
+                      color: Colors.orangeAccent,
                     )
                   : (isCurrent
                         ? Icon(
@@ -147,7 +174,6 @@ class LessonCard extends StatelessWidget {
                       ],
 
                       const SizedBox(height: 16),
-                      // Botão de Editar posicionado no final do card
                       Align(
                         alignment: Alignment.centerRight,
                         child: TextButton.icon(
@@ -162,7 +188,7 @@ class LessonCard extends StatelessWidget {
                 ),
               ],
             ),
-            if (isCurrent || isPast)
+            if ((isCurrent || isPast) && !isCancelled)
               LinearProgressIndicator(
                 value: progress,
                 minHeight: 4,

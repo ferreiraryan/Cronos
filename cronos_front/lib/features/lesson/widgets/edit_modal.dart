@@ -2,6 +2,8 @@ import 'package:cronos_front/app/repository/schedule_repository.dart';
 import 'package:cronos_front/features/lesson/models/class_lesson.dart';
 import 'package:flutter/material.dart';
 
+import 'package:flutter/material.dart';
+
 class LessonEditModal extends StatefulWidget {
   final Lesson lesson;
   final DateTime dayDate;
@@ -15,7 +17,7 @@ class LessonEditModal extends StatefulWidget {
   static void show(BuildContext context, Lesson lesson, DateTime dayDate) {
     showModalBottomSheet(
       context: context,
-      isScrollControlled: true, // Para o teclado não cobrir
+      isScrollControlled: true,
       useSafeArea: true,
       builder: (context) => Padding(
         padding: EdgeInsets.only(
@@ -35,8 +37,10 @@ class _LessonEditModalState extends State<LessonEditModal> {
   late TextEditingController _summaryCtrl;
   late TextEditingController _locationCtrl;
   late TextEditingController _refsCtrl;
+  late TextEditingController _cancelReasonCtrl;
 
   late bool _isExam;
+  late bool _isCancelled;
   bool _applyLocationToAll = false;
 
   @override
@@ -48,7 +52,11 @@ class _LessonEditModalState extends State<LessonEditModal> {
     _refsCtrl = TextEditingController(
       text: widget.lesson.references.join(', '),
     );
+    _cancelReasonCtrl = TextEditingController(
+      text: widget.lesson.metadata.cancelReason,
+    );
     _isExam = widget.lesson.isExam;
+    _isCancelled = widget.lesson.metadata.isCancelled;
   }
 
   @override
@@ -57,10 +65,18 @@ class _LessonEditModalState extends State<LessonEditModal> {
     _summaryCtrl.dispose();
     _locationCtrl.dispose();
     _refsCtrl.dispose();
+    _cancelReasonCtrl.dispose();
     super.dispose();
   }
 
   void _save() {
+    final updatedMetadata = widget.lesson.metadata.copyWith(
+      isCancelled: _isCancelled,
+      cancelReason: _cancelReasonCtrl.text.trim().isEmpty
+          ? null
+          : _cancelReasonCtrl.text.trim(),
+    );
+
     final updatedLesson = widget.lesson.copyWith(
       topic: _topicCtrl.text.trim().isEmpty ? null : _topicCtrl.text.trim(),
       summary: _summaryCtrl.text.trim().isEmpty
@@ -73,6 +89,7 @@ class _LessonEditModalState extends State<LessonEditModal> {
           .map((e) => e.trim())
           .where((e) => e.isNotEmpty)
           .toList(),
+      metadata: updatedMetadata,
     );
 
     ScheduleRepository().updateLesson(
@@ -99,6 +116,32 @@ class _LessonEditModalState extends State<LessonEditModal> {
               style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 16),
+
+            // Toggle de Cancelamento
+            SwitchListTile(
+              contentPadding: EdgeInsets.zero,
+              title: const Text(
+                'Aula Cancelada?',
+                style: TextStyle(
+                  color: Colors.redAccent,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              value: _isCancelled,
+              activeColor: Colors.redAccent,
+              onChanged: (val) => setState(() => _isCancelled = val),
+            ),
+
+            if (_isCancelled) ...[
+              TextField(
+                controller: _cancelReasonCtrl,
+                decoration: const InputDecoration(
+                  labelText: 'Motivo do cancelamento (Opcional)',
+                  border: OutlineInputBorder(),
+                ),
+              ),
+              const SizedBox(height: 16),
+            ],
 
             TextField(
               controller: _topicCtrl,
@@ -136,7 +179,6 @@ class _LessonEditModalState extends State<LessonEditModal> {
               ),
             ),
 
-            // O Toggle inteligente
             CheckboxListTile(
               contentPadding: EdgeInsets.zero,
               title: const Text(
@@ -152,10 +194,10 @@ class _LessonEditModalState extends State<LessonEditModal> {
               contentPadding: EdgeInsets.zero,
               title: const Text(
                 'É uma Avaliação / Exame?',
-                style: TextStyle(color: Colors.redAccent),
+                style: TextStyle(color: Colors.orangeAccent),
               ),
               value: _isExam,
-              activeColor: Colors.redAccent,
+              activeColor: Colors.orangeAccent,
               onChanged: (val) => setState(() => _isExam = val),
             ),
 
