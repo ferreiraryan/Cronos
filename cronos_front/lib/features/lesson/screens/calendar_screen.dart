@@ -1,15 +1,12 @@
 import 'package:cronos_front/app/repository/schedule_repository.dart';
-import 'package:cronos_front/app/repository/study_repository.dart';
-import 'package:cronos_front/features/lesson/models/class_dayschedule.dart';
 import 'package:cronos_front/features/lesson/models/class_lesson.dart';
 import 'package:cronos_front/features/lesson/models/class_study_task.dart';
-import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
-import '../widgets/lesson_card.dart';
+import 'package:cronos_front/app/repository/study_repository.dart';
+import 'package:cronos_front/features/lesson/models/class_dayschedule.dart';
 
-import 'package:flutter/material.dart';
-import 'package:table_calendar/table_calendar.dart';
 import '../widgets/lesson_card.dart';
+import 'package:flutter/material.dart';
 
 class CalendarScreen extends StatefulWidget {
   const CalendarScreen({super.key});

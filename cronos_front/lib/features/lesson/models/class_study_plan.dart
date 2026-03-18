@@ -1,6 +1,6 @@
-import 'package:cronos_front/features/lesson/models/class_study_block.dart';
-import 'package:cronos_front/features/lesson/models/class_study_material.dart';
-import 'package:cronos_front/features/lesson/models/class_study_task.dart';
+import 'class_study_block.dart';
+import 'class_study_material.dart';
+import 'class_study_task.dart';
 
 class StudyPlan {
   List<StudyBlock> routine;

@@ -1,4 +1,4 @@
-import 'package:cronos_front/features/lesson/models/class_dayschedule.dart';
+import 'class_dayschedule.dart';
 
 class SemesterSchedule {
   final String semester;

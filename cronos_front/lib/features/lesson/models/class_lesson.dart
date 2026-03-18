@@ -1,4 +1,4 @@
-import 'package:cronos_front/features/lesson/models/class_metadata.dart';
+import 'class_metadata.dart';
 
 class Lesson {
   final String timeStart;

@@ -1,4 +1,4 @@
-import 'package:cronos_front/features/lesson/models/class_lesson.dart';
+import 'class_lesson.dart';
 
 class DaySchedule {
   final DateTime date;
